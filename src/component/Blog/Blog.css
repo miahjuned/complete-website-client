@@ -22,6 +22,7 @@
     font-family: "Roboto Slab";
     font-weight: 400;
     padding-top: 20px;
+    
 }
 
 
@@ -31,33 +32,32 @@
     font-weight: 400;
     font-family: 'Mulish', 'sans-serif' !important;
     padding-top: 50px;
+    
 }
 
 
 .blog_Column{
     width: 300px;
     height: 250px;
+    position: relative;
+    transition: ease-in-out .25s;
     opacity: .75;
 }
 .blog_Column:hover{
     opacity: 10;
-    background-color:red;
-    transform: translate(2px);
-    transition: all 500ms;
-    border-radius: 10px;
+    transform: translateY(-12px);
 }
 
 .blog_Info img{
     width: 98%;
     height: 100%;
     position: absolute;
-    background-color: black;
     border-radius: 10px;
 }
 
 .blog_Column article{
     position: relative;
-    margin: 20px;
+    margin: 0 10px;
 }
 .blog_Column Button{
     position: relative;
@@ -67,4 +67,12 @@
 .blog_Column Button:hover{
     background-color: rgba(255, 0, 0, 0.39);
     border-color: red;
+}
+
+
+
+
+
+.footer_post{
+    margin: 0 10px;
 }

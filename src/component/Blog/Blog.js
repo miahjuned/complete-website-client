@@ -12,36 +12,38 @@ const Blog = () => {
             <hr/>
             <article className="blogTitle">WANT TO LEARN MORE?</article>
             <p>Check out these articles below</p>
-            <Row>
-                <Col className="blog_Column" md={3} lg={3} sm={6} xl={3} xs={12}>
-                    <div className="blog_Info">
-                        <img src={blogImg1} alt=""/>
-                        <article>Kaanfitness Origins – The Kaanfitness Journey</article>
-                        <Button>Read More</Button>
-                    </div>
-                </Col>
-                <Col className="blog_Column" md={3} lg={3} sm={6} xl={3} xs={12}>
-                    <div className="blog_Info">
-                        <img src={blogImg2} alt=""/>
-                        <article>Kaanfitness Origins – The Kaanfitness Journey</article>
-                        <Button>Read More</Button>
-                    </div>
-                </Col>
-                <Col className="blog_Column" md={3} lg={3} sm={6} xl={3} xs={12}>
-                    <div className="blog_Info">
-                        <img src={blogImg3} alt=""/>
-                        <article>Kaanfitness Origins – The Kaanfitness Journey</article>
-                        <Button>Read More</Button>
-                    </div>
-                </Col>
-                <Col className="blog_Column" md={3} lg={3} sm={6} xl={3} xs={12}>
-                    <div className="blog_Info">
-                        <img src={blogImg4} alt=""/>
-                        <article>Kaanfitness Origins – The Kaanfitness Journey</article>
-                        <Button>Read More</Button>
-                    </div>
-                </Col>
-            </Row>
+            <div className="footer_post">
+                <Row className="mt-5 pt-5">
+                    <Col className="blog_Column mb-2" md={3} lg={3} sm={6} xl={3} xs={12}>
+                        <div className="blog_Info">
+                            <img src={blogImg1} alt=""/>
+                            <article>Kaanfitness Origins – The Kaanfitness Journey</article>
+                            <Button>Read More</Button>
+                        </div>
+                    </Col>
+                    <Col className="blog_Column  mb-2" md={3} lg={3} sm={6} xl={3} xs={12}>
+                        <div className="blog_Info">
+                            <img src={blogImg2} alt=""/>
+                            <article>Kaanfitness Origins – The Kaanfitness Journey</article>
+                            <Button>Read More</Button>
+                        </div>
+                    </Col>
+                    <Col className="blog_Column mb-2" md={3} lg={3} sm={6} xl={3} xs={12}>
+                        <div className="blog_Info">
+                            <img src={blogImg3} alt=""/>
+                            <article>Kaanfitness Origins – The Kaanfitness Journey</article>
+                            <Button>Read More</Button>
+                        </div>
+                    </Col>
+                    <Col className="blog_Column  mb-2" md={3} lg={3} sm={6} xl={3} xs={12}>
+                        <div className="blog_Info">
+                            <img src={blogImg4} alt=""/>
+                            <article>Kaanfitness Origins – The Kaanfitness Journey</article>
+                            <Button>Read More</Button>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         </div>
     );
 };

@@ -1,3 +1,9 @@
+.blog_Area {
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
 .blogReader{
     border-bottom: none !important;
     font-style: italic;
@@ -9,14 +15,9 @@
     text-transform: lowercase !important;
 }
 
-.blog_Area {
-    text-align: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    
-}
 
-.blog_Area .card{
+
+.blog_Area .card_container{
     height: 100%;
     border-radius: 2%;
     

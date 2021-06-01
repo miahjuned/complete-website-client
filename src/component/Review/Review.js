@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Card, CardImg,  Col, Container,  Row } from 'react-bootstrap';
+import { Container,  Row } from 'react-bootstrap';
+import AllReview from './AllReview';
 import './Review.css';
 const Review = () => {
 
@@ -25,22 +26,7 @@ const Review = () => {
                 }
 
                 {
-                    review.map(review => <Col className="Review_section" key={review._id} review={review}>
-                          <Card className="card" md={12} lg={3} sm={12} xl={3} xs={12}>
-                            <CardImg style={{height: '200px'}} variant="top" src={review.imageURL}>
-                            </CardImg>
-                            <Card.Body>
-                                <Card.Title><h3>{review.name}</h3></Card.Title>
-                                <Card.Text>
-                                    <p>{review.title}</p>
-                                </Card.Text>
-                                <Card.Text>
-                                    <h2>“{review.description}”</h2>
-                                    
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>)
+                    review.map(review => <AllReview className="Review_section" key={review._id} review={review}></AllReview>)
                 }
             </Row>
         </Container>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Nav, footer, footerBrand, Row } from "react-bootstrap";
+import { Col, Container,  Row } from "react-bootstrap";
 import "./Footer.css";
 import logo from "../../images/Kaan-FitnessFinal-With-Tagline-White.jpg";
 import { Link } from "react-router-dom";
@@ -18,13 +18,13 @@ const Footer = () => {
                         <hr/>
                         <Row>
                             <Col md={4} lg={4} sm={4} xl={4} xs={4}>
-                                <Link className="pr-5 footerItem" to="/about">CREDITS</Link>
+                                <Link className="footerItem" to="/about">CREDITS</Link>
                             </Col>
                             <Col md={4} lg={4} sm={4} xl={4} xs={4}>
-                                <Link className="pr-5 footerAbout" to="/about">ABOUT</Link>
+                                <Link className="footerAbout" to="/about">ABOUT</Link>
                             </Col>
                             <Col md={4} lg={4} sm={4} xl={4} xs={4}>
-                                <Link className="pr-5 footerItem" to="/about">DISCLAIMER</Link>
+                                <Link className="footerItem" to="/about">DISCLAIMER</Link>
                             </Col>
                         </Row>
                         <hr/>
