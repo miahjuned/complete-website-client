@@ -5,10 +5,9 @@ import Ipt from '../../images/IPT.jpg';
 import onlineTrainer from '../../images/Certified-Online-Trainer.jpg';
 import BBC from '../../images/bbc.jpg';
 import BrithshMushlim from '../../images/british.jpg';
-import FigureImage from 'react-bootstrap/esm/FigureImage';
 const Featured = () => {
     return (
-        <Container>
+        <Container className="f">
             <h2 className="featuredTitle">Featured on:</h2>
             <hr/>
             <Row >
@@ -17,7 +16,6 @@ const Featured = () => {
                         <a href="#" target="_blank" >
                             <Image src={Ipt} fluid  />
                         </a>
-                        
                         <a href="#" target="_blank" rel="noreferrer">
                             <Image src={BrithshMushlim} fluid  />
                         </a>

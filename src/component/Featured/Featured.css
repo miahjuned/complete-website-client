@@ -10,16 +10,21 @@
 .featured{
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .featured img{
     height: 80px;
     opacity: 0.5;
     transition: ease-in-out .25s;
     margin: 10px 0;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
     /* margin-right: 30px;
     padding-right: 10px; */
 }
 .featured img:hover{
     opacity: 10;
     transform: translateY(-3px);
+}
+.f{
+
 }

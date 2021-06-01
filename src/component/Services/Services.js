@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Card, CardImg, Col, Container, ListGroup, ListGroupItem, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Container, Row } from 'react-bootstrap';
+import AllServices from './AllServices';
 import './Services.css';
 const Services = () => {
     
@@ -26,36 +26,8 @@ const Services = () => {
                     }
 
                     {
-                        product.map(product => <Col className="services_section" md={6} lg={3} sm={6} xl={3} xs={12} key={product._id} product={product}>
-                            <Card className="card" >
-                                <CardImg style={{height: '200px'}} variant="top" src={product.imageURL}>
-                                </CardImg>
-                                <Card.Body>
-                                    <Card.Title><h2>{product.name}</h2></Card.Title>
-                                    <Card.Text>
-                                        {product.descrition}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        <strong>${product.price} <small>/mo</small></strong>
-                                    </Card.Text>
-                                </Card.Body>
-                                <ListGroup className="list-group-flush">
-                                    <ListGroupItem>
-                                        {product.facilities1}
-                                    </ListGroupItem>
-                                    <ListGroupItem>
-                                        {product.facilities2}
-                                    </ListGroupItem>
-                                    <ListGroupItem>
-                                        {product.facilities3}
-                                    </ListGroupItem>
-                                </ListGroup>
-                                
-                                <Card.Body>
-                                    <Link className="CardButton" to={`service/checkout/${product._id}`}><Button>BECOME A MEMBER</Button></Link>
-                                </Card.Body>
-                            </Card>
-                        </Col>)
+                        product.map(product => <AllServices className="" md={6} lg={3} sm={6} xl={3} xs={12} key={product._id} product={product}>
+                        </AllServices>)
                     }
                 </Row>
             </Container>
