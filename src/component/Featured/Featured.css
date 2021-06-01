@@ -7,24 +7,19 @@
     color: rgb(12 19 22);
     margin-top: 25px;
 }
-.featuredBody img{
-    margin: 10px;
-    opacity: 0.4;
+.featured{
+    justify-content: space-evenly;
+    align-items: center;
 }
-.featuredBody img:hover{
+.featured img{
+    height: 80px;
+    opacity: 0.5;
+    transition: ease-in-out .25s;
+    margin: 10px 0;
+    /* margin-right: 30px;
+    padding-right: 10px; */
+}
+.featured img:hover{
     opacity: 10;
-    transition: ease-in 300ms;
-}
-.featuredBody .Ipt{
-    width: 100px;
-    
-}
-.featuredBody .onlineTrainer{
-    width: 200px;
-}
-.featuredBody .BBC{
-    width: 150px;
-}
-.featuredBody .BritishMuslim{
-    width: 100px;
+    transform: translateY(-3px);
 }
