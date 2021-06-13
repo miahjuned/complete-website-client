@@ -4,15 +4,12 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    position: relative;
-    /* overflow: hidden; */
-    
+    position: relative;    
 }
 .header_conteiner{
     padding-top: 110px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.514);
-   
+    background-color: rgba(0, 0, 0, 0.514);   
 }
 .heroImg{
     margin-top: 50px;
@@ -22,28 +19,15 @@
 }
 .heroImg img{
     transform: translateY(270px) translateX(270px);
-    animation: animate 500ms ease-in-out;
-    animation-duration: 2s;
-    
+    animation: animate infinite 1s ease-in-out;
+    animation-direction: alternate;
 }
 @keyframes animate {
     0%{
-        transform: translateY(250px) translateX(290px);
-    }
-    50%{
-        transform: translateY(260px) translateX(280px);
-    }
-    100%{
-        transform: translateY(240px) translateX(300px);
+        transform: translateY(250px) translateX(290px) rotateY(45deg);
     }
 }
-/* .heroImg img{
-    background-color: red;
-    margin-left: 0;
-    padding-left: 0; */
-    /* height: 100%; */
-    /* height: inherit; */
-/* } */
+
 .headerInfo h2{
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -61,8 +45,6 @@
 }
 .headerInfo article{
     font-style: italic;
-    /* padding-bottom: 205px; */
-    /* margin-bottom: 250px; */
 }
 .headerInfo Button{
     background-color: red !important;
