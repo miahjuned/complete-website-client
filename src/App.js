@@ -27,6 +27,7 @@ import Add_BlogPost from './component/Blog/AddBlogPost';
 import AboutMe from './component/AboutMe/AboutMe';
 import FeaturedAbout from './component/Featured_About/Featured_About.jsx';
 import WatchOurProgram from './component/OurProgramme/WatchOurProgram';
+import WhatsCovered from './component/WhatsCovered/WhatsCovered';
 
 
 export const UserContext = createContext();
@@ -50,6 +51,7 @@ function App() {
             <Featured></Featured>
             <FeaturedAbout/>
             <WatchOurProgram></WatchOurProgram>
+            <WhatsCovered></WhatsCovered>
             <Services></Services>
             <AboutMe></AboutMe>
             <Review></Review>
