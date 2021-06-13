@@ -19,7 +19,7 @@
 }
 .featuredInfo{
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
     
 }
 .featuredInfo img{
