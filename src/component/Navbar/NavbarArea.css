@@ -5,9 +5,10 @@ background: linear-gradient(60deg,#000 ,rgb(53, 2, 2));
 .navbarItem{
     color: white;
     font-size: 20px;
-    border-left: 2px solid red;
+    /* border-left: 2px solid #fff; */
     /* border-radius: 10px; */
     padding-left: 10px;
+    transition: ease 500ms;
 }
 
 .navbarItem:hover{

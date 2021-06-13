@@ -11,24 +11,10 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.514);   
 }
-.heroImg{
-    margin-top: 50px;
-    background-image: url(../../images//hero-image.jpg);
-    background-repeat: no-repeat;
-    height: 470px;
-}
-.heroImg img{
-    transform: translateY(270px) translateX(270px);
-    animation: animate infinite 1s ease-in-out;
-    animation-direction: alternate;
-}
-@keyframes animate {
-    0%{
-        transform: translateY(250px) translateX(290px) rotateY(45deg);
-    }
-}
 
-.headerInfo h2{
+
+
+.headerInfo h2{            /*============ Header content ============*/
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: "Roboto Slab";
@@ -46,7 +32,10 @@
 .headerInfo article{
     font-style: italic;
 }
-.headerInfo Button{
+
+
+
+.headerInfo Button{           /*============ Header Buttom ============*/
     background-color: red !important;
     letter-spacing: 2px;
     border-radius: 5px;
@@ -55,4 +44,26 @@
     font-size: 18px;
     font-family: "Roboto Slab";
 }
+.headerInfo Button:hover{
+    background-color: rgba(255, 0, 0, 0.678) !important;
+    border-color: red;
+}
 
+
+
+.heroImg{                    /* ============= Gym award img ============*/
+    margin-top: 50px;
+    background-image: url(../../images//hero-image.jpg);
+    background-repeat: no-repeat;
+    height: 470px;
+}
+.heroImg img{
+    transform: translateY(270px) translateX(270px);
+    animation: animate infinite 1s ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(250px) translateX(290px) rotateY(45deg);
+    }
+}

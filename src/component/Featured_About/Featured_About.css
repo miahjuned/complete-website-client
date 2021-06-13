@@ -1,3 +1,24 @@
 .Featured_About {
-    background-color: red;
+    /* background-color: red; */
+}
+
+                                  /*========== About Featured Content =========== */
+.Featured_About h2{
+    text-transform: capitalize !important;
+}
+.Featured_About article{
+    color: #0c1115;
+    font-family: "Roboto Slab";
+}
+.Featured_About strong{
+    font-style: italic;
+}
+.Featured_Img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 1s;
+}
+.Featured_Img:hover{
+    transform: scale(1.1);
 }

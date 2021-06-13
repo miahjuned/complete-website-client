@@ -9,12 +9,19 @@ const Featured_About = () => {
             <Row className="pt-5 pb-5">
                 <Col  md={6} lg={6} sm={6} xl={6} xs={12}>
                     <div className="pl-3 pr-3">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quod!</h2>
-                        <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex praesentium aliquid corrupti est sit aspernatur officiis non. Aliquid aut amet laborum voluptatem dolores, eaque expedita et consequuntur at unde nulla illo magni praesentium animi eius enim accusamus incidunt dolorem totam blanditiis possimus, repellat error dicta cumque! Laborum quae doloribus officiis.</article>
+                        <h2>How Fit Dad Life Mastery Minimalist Method Online Weight Loss Coaching Works</h2>
+                        <article>I understand the difficulties faced by professional desi's trying to lose weight. That's why our unique comprehensive approach which has been refined over many years to make it a perfect for Desi Professionals, works so well.  It's completely different.  We can guarantee you've never experienced anything like it before. Scroll down to see what others are saying.   If you had you would NEVER struggle with your weight ever again.
+
+                        <strong>
+                             Real one on one professional coaching with a real person delivered via your own state of the art dedicated coaching app.
+                        </strong>
+                        </article>
                     </div>
                 </Col>
-                <Col  md={6} lg={6} sm={6} xl={6} xs={12}>
-                    <Image src={featuredImg} fluid  />
+                <Col className="Featured_Img" md={6} lg={6} sm={6} xl={6} xs={12}>
+                    <div className="">
+                        <Image src={featuredImg} fluid  />
+                    </div>
                 </Col>
             </Row>
         </Container>
