@@ -1,17 +1,25 @@
+.navbar_conteinar{
+background: linear-gradient(60deg,#000 ,rgb(53, 2, 2));
+
+}
 .navbarItem{
     color: white;
     font-size: 20px;
-    border-left: 1px solid red;
+    border-left: 2px solid red;
+    /* border-radius: 10px; */
     padding-left: 10px;
 }
+
 .navbarItem:hover{
     text-decoration: none;
+    border-left: 1px solid red;
     color:red;
 }
 
 .loginBtn Button{
     background-color: rgb(255, 0, 0);
     border-color: red;
+    padding: 5px 20px;
     margin-right: 10px;
 }
 .loginBtn Button:hover{

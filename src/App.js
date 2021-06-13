@@ -24,6 +24,7 @@ import OrderList from './component/OrderList/OrderList';
 import BlogPost from './component/Blog/BlogPost';
 import Add_BlogPost from './component/Blog/AddBlogPost';
 import AboutMe from './component/AboutMe/AboutMe';
+import Featured_About from './component/Featured_About/Featured_About.jsx';
 
 
 export const UserContext = createContext();
@@ -44,6 +45,7 @@ function App() {
           <Route path="/home">
             <Header></Header>
             <Featured></Featured>
+            <Featured_About/>
             <Services></Services>
             <AboutMe></AboutMe>
             <Review></Review>

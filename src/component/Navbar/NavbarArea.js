@@ -8,15 +8,18 @@ import FigureImage from "react-bootstrap/esm/FigureImage";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 const NavbarArea = () => {
   return (
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <NavbarBrand href="#home">
-        <FigureImage 
-          width={200}
-           alt="Adam khan"
-           src={logo}
-        />
-        {/* <img src={logo} alt=""/> */}
-        </NavbarBrand>
+    // bg="dark" variant="dark"
+      <Navbar collapseOnSelect expand="lg" className="navbar_conteinar" >
+      <Link to="/home">
+        <NavbarBrand>
+          <FigureImage 
+            width={200}
+            alt="Adam khan"
+            src={logo}
+          />
+          {/* <img src={logo} alt=""/> */}
+          </NavbarBrand>
+        </Link>
       <NavbarToggle aria-controls="responsive-navbar-nav" />
       <NavbarCollapse className="justify-content-md-end" id="responsive-navbar-nav">
         <Nav className="ml-auto">

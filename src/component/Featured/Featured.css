@@ -1,3 +1,13 @@
+.featured{
+    /* background-color: red; */
+}
+.featured_container {
+    background-color: #f7f7f7;
+    transform: translateY(-50px);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4);
+    /* border-radius: 20px; */
+    position: relative;
+}
 .featuredTitle{
     text-align: center;
     font-style: italic;
@@ -5,26 +15,20 @@
     font-size: 34px;
     font-weight: 600;
     color: rgb(12 19 22);
-    margin-top: 25px;
+    display: none;
 }
-.featured{
+.featuredInfo{
     justify-content: space-evenly;
     align-items: center;
     
 }
-.featured img{
-    height: 80px;
-    opacity: 0.5;
+.featuredInfo img{
+    height: 50px;
+    opacity: 0.8;
     transition: ease-in-out .25s;
     margin: 10px 0;
-    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
-    /* margin-right: 30px;
-    padding-right: 10px; */
 }
-.featured img:hover{
+.featuredInfo img:hover{
     opacity: 10;
-    transform: translateY(-3px);
-}
-.f{
-
+    transform: translateY(-3px) scale(1.1);
 }
