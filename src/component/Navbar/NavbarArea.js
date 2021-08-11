@@ -37,7 +37,7 @@ console.log(loggedInUser)
         </Nav>
         <Nav className="ml-auto">
           <Link className="pr-5 loginBtn" to="/login">
-            <Button> 
+            <Button variant="outline-danger"> 
               {loggedInUser.email ? <>{loggedInUser.displayName} <img className="loggedInUserPhoto" src={loggedInUser.photoURL} alt="" />  </>:'Login'}
             </Button>
           </Link>

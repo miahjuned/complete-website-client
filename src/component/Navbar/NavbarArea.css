@@ -22,6 +22,7 @@ background: linear-gradient(60deg,#000 ,rgb(53, 2, 2));
     border-color: red;
     padding: 5px 20px;
     margin-right: 10px;
+    color: #fff;
 }
 .loginBtn Button:hover{
     background-color: rgba(255, 0, 0, 0);
