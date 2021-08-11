@@ -13,7 +13,7 @@ const Blog = () => {
             <article className="blogTitle">WANT TO LEARN MORE?</article>
             <p>Check out these articles below</p>
             <div className="footer_post">
-                <Row className="mt-5 pt-5">
+                <Row className="mt-3 pt-5">
                     <Col className="blog_Column mb-2" md={3} lg={3} sm={6} xl={3} xs={12}>
                         <div className="blog_Info">
                             <img src={blogImg1} alt=""/>

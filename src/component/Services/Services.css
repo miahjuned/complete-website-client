@@ -29,14 +29,13 @@
 }
 .services_section{
     transition: all .25s;
-    box-shadow: 0px 3px 20px 5px rgba(212, 120, 120, 0.4);
     justify-content: space-evenly;
     display: flex;
-    background-color: #c8c9ca85 !important;
+    background-color: #f7f7f7 !important;
 }
 .services_section:hover{
     transform:translateY(-5px);
-    box-shadow: 0px 3px 8px 0px rgba(252, 17, 17, 0.9);
+    border: 1px dashed red;
 }
 
 .services_section .card_image{

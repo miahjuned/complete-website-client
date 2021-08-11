@@ -46,17 +46,15 @@ function App() {
         {/* <Admin_Deshboard></Admin_Deshboard> */}
 
         <Switch>
-          <Route path="/home">
-            <Header></Header>
-            <Featured></Featured>
+          <Route path="/about">
             <FeaturedAbout/>
-            <WatchOurProgram></WatchOurProgram>
             <WhatsCovered></WhatsCovered>
-            <Services></Services>
             <AboutMe></AboutMe>
-            <Review></Review>
+          </Route>
+
+          <Route path="/Contact">
             <GetInTouch></GetInTouch>
-            <Blog></Blog>
+            <WatchOurProgram></WatchOurProgram>
           </Route>
 
           
@@ -109,9 +107,13 @@ function App() {
 
 
           <Route path="/">
-            <Header></Header>
+           <Header></Header>
             <Featured></Featured>
+            <FeaturedAbout/>
+            <WatchOurProgram></WatchOurProgram>
+            <WhatsCovered></WhatsCovered>
             <Services></Services>
+            <AboutMe></AboutMe>
             <Review></Review>
             <GetInTouch></GetInTouch>
             <Blog></Blog>

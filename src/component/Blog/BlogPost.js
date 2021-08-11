@@ -17,8 +17,7 @@ const BlogPost = () => {
     return (
         <div className="service_area blog_Area">
             <Container>
-                <h2 className="blogReader">Hi {loggedInUser.displayName}! <small>Welcome to the Blog</small></h2> 
-                <article>WANT TO LEARN MORE?</article>
+                <article> Hi {loggedInUser.displayName}! WANT TO LEARN MORE?</article>
                 <h2>Check out these articles below</h2>
                 <Row>
                     {
@@ -29,7 +28,7 @@ const BlogPost = () => {
 
                     {
                         blogPost.map(blogPost => <Col className="services_section" md={6} lg={3} sm={6} xl={3} xs={12} key={blogPost._id} blogPost={blogPost}>
-                            <Card className="card" >
+                            <Card className="card_container mb-4" >
                                 <CardImg style={{height: '200px'}} variant="top" src={blogPost.imageURL}>
                                 </CardImg>
                                 <Card.Body>

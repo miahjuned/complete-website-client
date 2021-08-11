@@ -4,6 +4,12 @@
     padding: 0 !important;
     
 }
+.blog_Area article {
+    font-size: 20px !important;
+    margin-top: 10px !important;
+    padding: 20px 10px !important;
+    
+}
 .blogReader{
     border-bottom: none !important;
     font-style: italic;
@@ -17,10 +23,19 @@
 
 
 
+
+.blog_Area .services_section:hover{
+    border: none !important;
+}
+
+
 .blog_Area .card_container{
-    height: 100%;
+    /* height: 100%; */
     border-radius: 2%;
-    
+}
+.blog_Area .card_container:hover{
+    /* height: 100%; */
+    border: 1px solid red;
 }
 .blog_Area Button{
     margin: 10px 0;
