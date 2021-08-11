@@ -24,9 +24,6 @@ const GetInTouch = () => {
                             <hr/>
                             <Link><Button type="submit" value="">Send</Button></Link>
                             <hr/>
-
-                            <iframe src="https://g.page/r/CYbXVB9ORpZ8EAg/review" frameborder="0"></iframe>
-                            <iframe src="https://www.google.com/search?q=kaanfitness&oq=k&aqs=chrome.1.69i60j69i59l2j69i57j69i60j69i61j69i65j69i60.1623j0j4&sourceid=chrome&ie=UTF-8#lrd=0x487bb7e2db5478dd:0x84762da1ea1c9c68,1,,," frameborder="0"></iframe>
                         </Container>
                     </Col>
                 </Row>

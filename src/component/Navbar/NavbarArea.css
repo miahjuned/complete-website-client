@@ -28,3 +28,10 @@ background: linear-gradient(60deg,#000 ,rgb(53, 2, 2));
     border-color: red;
     margin-right: 10px;
 }
+
+
+.loggedInUserPhoto{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
